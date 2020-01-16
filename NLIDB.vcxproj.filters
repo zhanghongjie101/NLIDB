@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\nlu">
+      <UniqueIdentifier>{ba60080f-1cc3-47dd-b09c-a4eb1196a943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lexion">
+      <UniqueIdentifier>{27191f82-0966-464d-9903-658effc357d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\kernel">
+      <UniqueIdentifier>{76f7fd81-53c2-4fba-8756-5af2678bff56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tag">
+      <UniqueIdentifier>{6fe3c34c-c116-426d-b619-2fe7475cca45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\database">
+      <UniqueIdentifier>{21e7cfc3-0b92-43e0-a0bc-e213e2439f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{617ff668-0a13-48f5-b61e-38a72232ad89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chart.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="Grammer.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbol.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaExpression.h">
+      <Filter>头文件\nlu</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlDml.h">
+      <Filter>头文件\database</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryType.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaFunction.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ConditionType.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryTransformers.h">
+      <Filter>头文件\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain.h">
+      <Filter>头文件\lexion</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToLambda.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>头文件\lexion</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>头文件\tag</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlExecute.h">
+      <Filter>头文件\database</Filter>
+    </ClInclude>
+    <ClInclude Include="AnswerStrategy.h">
+      <Filter>头文件\lexion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
